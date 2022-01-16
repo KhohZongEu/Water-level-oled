@@ -38,7 +38,7 @@ void loop() {
   oled.setTextColor(WHITE);
   oled.setCursor(0, 0);       // position to display
   oled.println("Water level:");// text color
-  oled.setCursor(0, 30);       // position to display
+  oled.setCursor(75, 0);       // position to display
   oled.println(level); // text to display
   oled.display();
 
